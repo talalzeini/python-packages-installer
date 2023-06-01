@@ -26,7 +26,9 @@ required = {
     "pytube",
     "py2app",
     "pyrect",
-    "pyscreenshot"
+    "pyscreenshot",
+    "fuzzywuzzy",
+    "spacy",
 }
 
 installed = {pkg.key for pkg in pkg_resources.working_set}
