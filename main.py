@@ -29,6 +29,12 @@ required = {
     "pyscreenshot",
     "fuzzywuzzy",
     "spacy",
+    "biopython",
+    "chemaxon",
+    "tensorflow",
+    "rumps",
+    "librosa",
+    "soundfile"
 }
 
 installed = {pkg.key for pkg in pkg_resources.working_set}
